@@ -190,11 +190,21 @@ body {
   .nav_menu span {
     display: none;
   }
+
+  .nav_menu_pages ul {
+    gap: 15px;
+    padding-left: 10px;
+  }
   .nav_header {
     padding-left: 1%;
     padding-right: 1%;
+    justify-content: space-around;
   }
   .nav_header_searchbar {
+    width: calc(40vw - 50px);
+  }
+  .nav_header_button {
+    font-size: 0;
   }
 }
 

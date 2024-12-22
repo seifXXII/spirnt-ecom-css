@@ -171,3 +171,38 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
 }
+.allproduct_pageslist_past,
+.allproduct_pageslist_next {
+  background-color: var(--color-text);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+}
+.allproduct_pageslist_past::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("data:image/svg+xml,%3Csvg width=%279%27 height=%2715%27 viewBox=%270%200%209%2015%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M7.88916 13.1814L1.88916 7.1814L7.88916 1.1814%27 stroke=%27white%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E")
+    no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+.allproduct_pageslist_next::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("data:image/svg+xml,%3Csvg width=%2725%27 height=%2725%27 viewBox=%270%200%2025%2025%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M9.88916 18.1814L15.8892 12.1814L9.88916 6.1814%27 stroke=%27white%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E")
+    no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+.allproduct_pageslist_active {
+  background-color: var(--color-primary);
+}

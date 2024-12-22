@@ -2,6 +2,96 @@
 .content_promodeals {
   margin: 2rem 7rem;
 }
-
+h4 {
+  margin: 15px 0 10px;
+}
 .content_product {
+  display: flex;
+  gap: 3rem;
+}
+.content_product_filter {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content_product_filter h5 {
+  padding: 15px 20px;
+  margin: 0;
+  border: solid;
+  border-color: var(--color-text);
+  border-width: 0 0 1.5px;
+}
+.content_product_filter_categories {
+  background-color: var(--color-white);
+}
+.content_product_filter_categories ul {
+  padding: 0;
+  margin: 0;
+}
+.content_product_filter_categories li {
+  padding: 11px 20px;
+  list-style-type: none;
+}
+.content_product_filter_categories a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+.content_product_filter_brand div {
+  padding: 11px 5px;
+  color: var(--color-text);
+}
+.content_product_filter_price {
+  position: relative;
+}
+.content_product_filter_price input {
+  width: 50px;
+  position: absolute;
+  right: 0;
+}
+.content_product_filter_price label,
+.content_product_filter_price p {
+  color: var(--color-text);
+}
+.content_product_filter_warrenty div {
+  padding: 11px 5px;
+}
+.content_product_filter_button {
+  background-color: var(--color-yellow);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+}
+.content_product_filter_banar {
+  margin-top: 20px;
+  background-color: var(--color-secondary);
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+.content_product_filter_banar::after {
+  content: "Banar";
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 25px);
+}
+@media only screen and (max-width: 600px) {
+  .content_product {
+    flex-direction: column;
+    gap: 0;
+    margin: 20px;
+  }
+  .content_product_filter {
+    display: none;
+  }
+  .content_product_filter_mobile {
+    display: flex;
+    justify-content: end;
+  }
+  .content_product_filter_mobile button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
 }

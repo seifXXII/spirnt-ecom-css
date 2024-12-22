@@ -56,7 +56,10 @@ body {
   font-style: normal;
   background-color: var(--color-grey);
 }
-
+nav p,
+footer p {
+  margin: 16px 0;
+}
 /* ------ Navbar Styling -------*/
 
 .nav_info {

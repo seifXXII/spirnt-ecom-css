@@ -101,6 +101,7 @@ h4 {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .product_card {
   width: 210px;
   background-color: var(--color-white);
@@ -140,8 +141,33 @@ h4 {
   border-radius: 25px;
 }
 
+.content_product_allproduct_pageslist {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 10px;
+  color: var(--color-text);
+}
+.content_product_allproduct_pageslist ul {
+  margin: 0;
+}
+.allproduct_pageslist {
+  border: solid 1px var(--color-text);
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 13px 10px 7px;
+}
+.pageslist_select {
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+  font-weight: 700;
+  border: solid 2px var(--color-primary);
+}
 .content_promodeals_list {
   display: flex;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 }

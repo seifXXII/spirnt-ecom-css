@@ -87,6 +87,7 @@
 .content_popular_title_viewall::after {
   content: "";
 }
+
 @media only screen and (max-width: 950px) {
   .product_card {
     width: 180px;
@@ -108,4 +109,9 @@
     font-size: 21px;
     margin: 5px;
   }
+}
+
+/* cart section */
+.pagetitle {
+  text-align: center;
 }

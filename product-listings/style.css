@@ -109,17 +109,6 @@ h4 {
   top: 30px;
 }
 
-/* .product_card::before {
-  content: "..5.0";
-  width: 30px;
-  color: var(--color-black);
-  position: absolute;
-  background-color: var(--color-white);
-  padding: 2px 5px;
-  border-radius: 12px;
-  left: 30px;
-  top: 30px;
-} */
 .product_card h5,
 .product_card p {
   margin: 5px 0;

@@ -1,0 +1,111 @@
+.product_card {
+  width: 210px;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+.product_card_stars {
+  position: absolute;
+  background-color: var(--color-white);
+  padding: 2px 5px;
+  border-radius: 12px;
+  left: 30px;
+  top: 30px;
+}
+.product_card_heart {
+  position: absolute;
+  background-color: var(--color-white);
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 12px;
+  right: 30px;
+  top: 30px;
+}
+
+.product_card h5,
+.product_card p {
+  margin: 5px 0;
+}
+.product_card p {
+  color: var(--color-text);
+}
+.product_card_imag {
+  width: 100%;
+  height: 200px;
+  background-color: var(--color-secondary);
+
+  border-radius: 20px;
+}
+
+.product_card_sell {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product_card_sell_price {
+  color: var(--color-orange);
+  font-weight: 700;
+}
+.product_card_sell a {
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.product_card_title a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.content_popular {
+  margin: 2rem 2rem auto 5rem;
+}
+.content_popular_list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content_popular_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+}
+.content_popular_title a {
+  text-decoration: inherit;
+  color: var(--color-black);
+}
+.content_popular_title_viewall svg {
+  padding-left: 9px;
+  padding-bottom: 2px;
+}
+.content_popular_title_viewall::after {
+  content: "";
+}
+@media only screen and (max-width: 950px) {
+  .product_card {
+    width: 180px;
+  }
+  .content_popular_title {
+    padding: 0 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .product_card {
+    width: 250px;
+  }
+  .content_popular_title {
+    padding: 0;
+    flex-direction: column;
+    width: 500;
+  }
+  .content_popular_title h4 {
+    font-size: 21px;
+    margin: 5px;
+  }
+}

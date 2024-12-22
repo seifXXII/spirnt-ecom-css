@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style/main.css">
+  <link rel="stylesheet" href="style.css">
   <title>Product Listings</title>
 </head>
 <!-- navbar start -->
@@ -139,8 +140,320 @@
 <!-- page content start -->
 
 
+<section class="content_product">
+  <!-- content_product_filter MOBILE -->
+  <div class="content_product_filter_mobile" style="display: none;">
+    <button><span>Filter</span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M21 7.75H3C2.59 7.75 2.25 7.41 2.25 7C2.25 6.59 2.59 6.25 3 6.25H21C21.41 6.25 21.75 6.59 21.75 7C21.75 7.41 21.41 7.75 21 7.75Z"
+          fill="#001C30"></path>
+        <path
+          d="M21 12.75H3C2.59 12.75 2.25 12.41 2.25 12C2.25 11.59 2.59 11.25 3 11.25H21C21.41 11.25 21.75 11.59 21.75 12C21.75 12.41 21.41 12.75 21 12.75Z"
+          fill="#001C30"></path>
+        <path
+          d="M21 17.75H3C2.59 17.75 2.25 17.41 2.25 17C2.25 16.59 2.59 16.25 3 16.25H21C21.41 16.25 21.75 16.59 21.75 17C21.75 17.41 21.41 17.75 21 17.75Z"
+          fill="#001C30"></path>
+      </svg></button>
+  </div>
+  <!-- content_product_filter -->
+  <div class="content_product_filter">
+    <h4>Filter Product</h4>
+    <!-- content_product_filter_categories -->
+    <div class="content_product_filter_categories">
+      <h5>Categories</h5>
+      <ul>
+        <li><a href="">All Product</a></li>
+        <li><a href="">Smartphone</a></li>
+        <li><a href="">Digital Camera</a></li>
+        <li><a href="">Gaming Accessories</a></li>
+        <li><a href="">Laptop & Notebook</a></li>
+        <li><a href="">Computer/PC</a></li>
+        <li><a href="">Audio & Video</a></li>
+        <li><a href="">IOT</a></li>
+        <li><a href="">Other</a></li>
+      </ul>
+    </div>
+    <!-- content_product_filter_brand -->
+    <div class="content_product_filter_brand">
+      <h5>Brand</h5>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_brand">
+        <label for="filter_brand">All Brand</label>
+      </div>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_Mirante">
+        <label for="filter_Mirante">Mirante</label>
+      </div>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_Axus">
+        <label for="filter_Axus">Axus</label>
+      </div>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_Awalion">
+        <label for="filter_Awalion">Awalion</label>
+      </div>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_Rober">
+        <label for="filter_Rober">Rober</label>
+      </div>
+      <div>
+        <input type="checkbox" name="resoved" id="filter_Gigna">
+        <label for="filter_Gigna">Gigna</label>
+      </div>
+    </div>
+    <!-- content_product_filter_price -->
+    <div class="content_product_filter_price">
+      <h5>Price</h5>
+      <div><br>
+        <label for="min_price">Min Price:</label>
+        <input type="number" name="min_price" id="min_price"><br><br>
+        <label for="max_price">Max Price:</label>
+        <input type="number" name="max_price" id="max_price">
+      </div>
+      <p>price: $<span class="filter_price_min">0</span> - $ <span class="filter_price_max">500</span></p>
+    </div>
+    <div class="content_product_filter_warrenty">
+      <h5>Warrenty</h5>
+      <div>
+        <input type="checkbox" name="warrenty" id="warrenty1y">
+        <label for="warrenty1y">1 Years</label>
+      </div>
+      <div>
+        <input type="checkbox" name="warrenty" id="warrenty2y">
+        <label for="warrenty2y">2 Years</label>
+      </div>
+      <div>
+        <input type="checkbox" name="warrenty" id="warrentyltd">
+        <label for="warrentyltd">Lifetime</label>
+      </div>
+    </div>
+    <button class="content_product_filter_button">Filter</button>
+    <div class="content_product_filter_banar"></div>
+  </div>
 
 
+
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+  <!-- content_product_allproduct -->
+
+
+
+
+  <div class="content_product_allproduct">
+    <h4>All Product</h4>
+    <main class="content_product_allproduct_body">
+      <!-- *///* -->
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+
+
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+        <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+        <img class="product_card_imag" src="/style/Logo.svg" alt="">
+        <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+        <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+        <div class="product_card_sell">
+          <div class="product_card_sell_price">$100</div>
+          <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+        </div>
+      </div>
+
+      <!-- *///* -->
+    </main>
+    <div class="content_product_allproduct_pages">
+      <ul class="content_product_allproduct_pageslist">
+        <a class="allproduct_pageslist_past " href=""></a>
+        <li class="allproduct_pageslist pageslist_select">1</li>
+        <li class="allproduct_pageslist">2</li>
+        <li class="allproduct_pageslist">3</li>
+        <li class="allproduct_pageslist">4</li>
+        <p>...</p>
+        <li class="allproduct_pageslist">100</li>
+        <a class="allproduct_pageslist_next allproduct_pageslist_active" href=""></a>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// -->
+</section>
+<section class="content_promodeals">
+  <h4>Related Product</h4>
+  <div class="content_promodeals_list">
+    <div class="product_card">
+      <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+      <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+      <img class="product_card_imag" src="/style/Logo.svg" alt="">
+      <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+      <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+      <div class="product_card_sell">
+        <div class="product_card_sell_price">$100</div>
+        <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+      </div>
+    </div>
+    <div class="product_card">
+      <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+      <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+      <img class="product_card_imag" src="/style/Logo.svg" alt="">
+      <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+      <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+      <div class="product_card_sell">
+        <div class="product_card_sell_price">$100</div>
+        <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+      </div>
+    </div>
+    <div class="product_card">
+      <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+      <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+      <img class="product_card_imag" src="/style/Logo.svg" alt="">
+      <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+      <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+      <div class="product_card_sell">
+        <div class="product_card_sell_price">$100</div>
+        <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+      </div>
+    </div>
+    <div class="product_card">
+      <div class="product_card_stars"><img src="star.svg" alt=""><span> 5.0</span></div>
+      <div class="product_card_heart "><img src="heart.svg" alt=""></div>
+      <img class="product_card_imag" src="/style/Logo.svg" alt="">
+      <h5 class="product_card_title"><a href="../product-details/">Headset T50RP MK3N - Black and Red</a></h5>
+      <p class="product_card_sold"><span class="product_card_soldnam">200</span> item sold</p>
+      <div class="product_card_sell">
+        <div class="product_card_sell_price">$100</div>
+        <a class="product_card_sell_buybutton" href="../product-details/">Buy</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

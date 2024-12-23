@@ -134,6 +134,21 @@ footer p {
 .nav_menu_icons_profile {
   padding: 6px 6px 4px;
 }
+.nav_menu_icons_chekout {
+  position: relative;
+}
+.nav_menu_icons_chekout::after {
+  content: "1";
+  position: absolute;
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  right: 0;
+  top: 0;
+}
 .nav_menu_icons_select {
   background-color: var(--color-blue-dark);
   padding: 6px 6px 4px;

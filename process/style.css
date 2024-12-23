@@ -307,4 +307,7 @@
   .cart_progres_step_name {
     display: none;
   }
+  .cart_details_main_product {
+    flex-direction: column;
+  }
 }

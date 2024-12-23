@@ -1,11 +1,11 @@
 @import url('../style/main.css');
 
 
-* {
+.product-details * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 body {
     font-family: Arial, sans-serif;
@@ -131,7 +131,29 @@ body {
 }
 
 .product-details .shipping {
-    margin-bottom: 15px;
+    margin-block: 30px;
+}
+
+.shipping h6 {
+    color: #8E96A4;
+}
+
+.shipping select {
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.shipping select option {
+
+}
+
+.colorgraay {
+    color: #8E96A4;
 }
 
 .actions {
@@ -140,7 +162,7 @@ body {
     flex-wrap: wrap;
 }
 
-.actions .btn { 
+.actions div .btn { 
     padding: 10px 40px;
     border: 1px solid #001C30;
     border-radius: 20px;
@@ -262,9 +284,22 @@ a {
     -o-border-radius: 50%;
 }
 
-.fas {
-    
+
+.icons {
+    display: flex;
+    margin-inline-end: 20px;
+    gap: 10px;
+
 }
 
-.fa-heart {
+.icons div {
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-inline: 5px;
 }

@@ -166,6 +166,10 @@
   justify-content: space-between;
   margin: 3px 0;
 }
+.cart_total_payment {
+  margin: 3px 0;
+  font-weight: 500;
+}
 .cart_total_button {
   background-color: var(--color-yellow);
   padding: 10px 20px;
@@ -249,6 +253,80 @@
 /* .cart_details hr {
   margin: 0 0 20px;
 } */
+
+.cart_total_policy {
+  font-size: 12px;
+  margin-bottom: 0;
+  color: var(--color-text);
+}
+.cart_total_policy a {
+  text-decoration: inherit;
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.billing_details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 25px 25px;
+  grid-auto-flow: row;
+  margin: 25px 0;
+}
+.billing_details > input {
+  border-radius: 25px;
+  border: solid 1px var(--color-text);
+  background-color: var(--color-grey);
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.billing_details_fname {
+  grid-area: 1 / 1 / 1 / 2;
+}
+
+.billing_details_lname {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.billing_details_address {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.billing_details_city {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.billing_details_zip {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.billing_details_tel {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.billing_details_email {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.billing_details_button {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  margin: 5px 0 25px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+.cart form {
+  position: relative;
+}
+.cart form hr {
+  margin-bottom: 55px;
+}
 @media only screen and (max-width: 1050px) {
   .cart_progres_step {
     padding: 0 5px 20px;
@@ -292,7 +370,7 @@
   }
   .cart {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     gap: 20px 0px;
     grid-template-areas:
       "cart_details"
@@ -301,6 +379,10 @@
   .cart h4 {
     margin: 5px 0;
     font-size: 20px;
+  }
+  .billing_details {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 600px) {

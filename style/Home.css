@@ -129,7 +129,9 @@
       top: 50px;
       flex-wrap: wrap;
     }
-    
+    .categories a{
+      text-decoration: none;
+    }
     .category {
       text-align: center;
       background: #fff;
@@ -264,6 +266,10 @@
       border-radius: 25px;
       cursor: pointer;
       transition: 0.7s ;
+    }
+    .add-to-cart a{
+      text-decoration: none;
+      color: var(--color-white);
     }
     
     .add-to-cart:hover {

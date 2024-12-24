@@ -357,8 +357,7 @@
       color: #888;
     }
     
-    .bs-banner h3 {
-      font-size: 24px;
+    .bs-banner h4 {
       margin: 10px 0;
     }
     
@@ -448,10 +447,18 @@
 
     .hns-product-rating {
       font-size: 0.9rem;
-      color: #ffcc00;
       margin-bottom: 5px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: white;
+      width: 50px;
+      border-radius: 25px;
+      color: var(--color-primary);
     }
-
+.star{
+  color: #ffcc00;
+}
     .hns-heart-icon {
       position: absolute;
       top: 10px;
@@ -566,10 +573,9 @@
       font-size: 0.9em;
   }
 
-  .news-card .content h3 {
-      margin: 10px 0;
-      font-size: 1.1em;
-      color: #333;
+  .news-card .content h5 {
+      margin: 1px 0;
+      color: var(--color-primary);
   }
 
   .news-card .read-more {

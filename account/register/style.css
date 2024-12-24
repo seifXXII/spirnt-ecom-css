@@ -38,16 +38,6 @@
     outline: none;
 }
 
-.signin-container a {
-    text-decoration: none;
-    font-size: 12px;
-    color: #56AF2C;
-}
-
-.signin-container a:hover {
-    text-decoration: underline;
-}
-
 .signin-container button {
     width: 100%;
     padding: 10px;

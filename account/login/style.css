@@ -1,0 +1,107 @@
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.signin-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signin-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signin-container input[type="email"],
+.signin-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signin-container input[type="email"]:focus,
+.signin-container input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.signin-container a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #56AF2C;
+}
+
+.signin-container a:hover {
+    text-decoration: underline;
+}
+
+.signin-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f6c300;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-container button:hover {
+    background-color: #e0b200;
+}
+
+.signin-container .or {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.signin-container .or::before,
+.signin-container .or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.signin-container .or span {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+.signin-container .oauth-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-container .oauth-button:hover {
+    background: #f1f1f1;
+}
+
+.signin-container .signup {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.signin-container .signup a {
+    color: #56AF2C;
+    font-weight: bold;
+}

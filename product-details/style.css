@@ -175,6 +175,9 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+.btns {
+    margin-top: 10px;
+}
 
 .btn-primary {
     background-color: #001C30;
@@ -216,6 +219,7 @@ body {
     border-bottom: 1px solid #ddd;
     width: calc(33%);
     padding: 8px 30px;
+    cursor: pointer;
 }
 
 .first-element {
@@ -302,4 +306,13 @@ a {
     height: 30px;
     cursor: pointer;
     margin-inline: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .product-info{
+        flex-direction: column;
+    }
+    .product-info div {
+        width: 100%;
+    }
 }

@@ -7,7 +7,7 @@ Live Preview : [Live Project](https://zouak-pedro.github.io/spirnt-ecom-css/)
 - [Seif Elden](https://github.com/seifXXII)
 - [Mahmoud](https://github.com/mahmoudElziny)
 - [Badr Edine](https://github.com/zouak-pedro)
-
+- [Saad Althunayyan](https://github.com/Saad-8)
 
 ## Working folder
 
